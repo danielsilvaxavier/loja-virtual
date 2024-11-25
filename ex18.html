@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>My&Pc</title>
+    <style>
+        #image{
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            margin: auto;
+            
+        }
+        img{
+            width: 210px;
+            height: 210px;
+            margin: auto;
+          
+        }
+        h3{
+            margin-top: 100px;
+            margin-bottom: 75px;
+          
+            border-radius: 30px;
+        }
+        div>.card:hover{
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+        }
+        .dropdown-item:hover{
+            text-decoration: underline;
+            background-color:#212529;
+            color:#fff;
+            
+        }
+
+        .icon3{
+        padding-left: 4%;
+        }
+        /*.icon4{
+
+        }*/
+        #icons{
+            columns: 12px;
+            position: absolute;   
+            display: flex;    
+            justify-content: space-evenly;
+            top: 5%;
+            left: 78%;
+            font-size: 1.4em;
+            
+            color: #fff;
+           
+        }
+    </style>
+</head>
+<body >
+    
+       <nav class="navbar navbar-expand-sm navbar-dark sticky-top " style="background-color: #1711cf;">
+        
+            <div class="container">
+                   <div class="col-sm-2 col-md-1 col-xl-1" id="icons"><i class="icon4 bi-brightness-high-fill" id="sol"></i><i class="icon3 bi-moon-stars-fill " id="lua"></i></div>
+                
+                    <a href="#" class="navbar-brand me-auto "><img src="Projeto Remover fundo.png" id="image" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#painel">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start w-75 " style="background-color: black;" id="painel" tabindex="-1">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title text-white">Menu</h5>
+                            <button class="btn-close bg-white" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-center">
+                            <hr style="color: aliceblue;">
+                            <div class="navbar-nav  ">
+                                <a href="" class="nav-link active">Principal</a>
+                                <div class="dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="ex20.html" class="dropdown-item">Monitores</a>
+                                            <a href="ex20.html" class="dropdown-item">Computadores</a>
+                                            <a href="ex20.html" class="dropdown-item">PC Gamer</a>
+                                            <a href="ex20.html" class="dropdown-item">Periféricos</a>
+                                            <a href="ex20.html" class="dropdown-item">Hardware</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                    <a href="ex20.html" class="nav-link">Contatos</a>
+                                    <a href="ex20.html" class="nav-link disabled">Sobre nós</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+             <div class="container col-sm-1 col-md-3 d-flex justify-content-end">
+                 <div class="">
+                     <form action="" class="d-flex justify-content-end">
+                                        <div class="input-group"><input type="search" name="#" id="#" class="form-control" placeholder="Buscar..."><button type="submit" class="btn btn-primary"><i class="bi-search"></i></button></input></div>
+                                    </form>
+                 </div>      
+             </div>
+        </nav>
+        <main class="container ">
+            <h3 class="display-6 text-center text-white p-3 w-75 mx-auto " style="background-color: #1711cf ;">Aqui Tem Promoção</h3>
+
+            <div class="row row-cols-md-3 mx-auto  g-3 w-75">
+                <div class="col ">
+                    <div class="  card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/800x560/computador-completo-intel-core-i5-8gb-ssd-512gb-windows-10-monitor-led-19-5-hdmi-3green-windows-10-bivolt/3greentechnology/27237/01e0eb5ff1980af335da8620ddc4fc76.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador Completo Intel Core i5 8GB SSD 512GB Windows 10 Monitor LED 19.5" HDMI 3green Windows 10 Bivolt</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 1.709,99</del></h6>
+                            <h5 class=" card-subtitle mb-2" >R$ 1.010,00</h5>
+                            <button class="btn btn-outline-primary " id="btn1" type="submit" >Compre Aqui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="post   card p-3 h-100">
+                        <img src="https://a-static.mlcdn.com.br/280x210/computador-completo-rgb-intel-core-i7-16gb-ssd-512gb-kit-gamer-monitor-led-24-windows-10-3green-colors/3greentechnology/75236/5120dbdd1db2ec87990b6ae236dc4754.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text text-truncate mb-4">Computador Completo RGB Intel Core i7 16GB SSD 512GB Kit Gamer Monitor LED 24" Windows 10 3green Colors</p> <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class=" card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn2" type="submit" >Compre aqui</button>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3 h-100">
+                        <img src="https://a-static.mlcdn.com.br/280x210/computador-pc-gamer-completo-tob-intel-core-i5-ssd-480gb-16gb-teclado-mouse-mouse-pad-e-headset-gamer-monitor-23-windows-10-pro-trial-tob-computers/pelicadorei/4237p/ef9bc7395126c399091e4b96020a64ee.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text text-truncate mb-4">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn3" type="submit" >Compre aqui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/computador-pc-gamer-completo-tob-intel-core-i5-ssd-480gb-16gb-teclado-mouse-mouse-pad-e-headset-gamer-monitor-23-windows-10-pro-trial-tob-computers/pelicadorei/4237p/ef9bc7395126c399091e4b96020a64ee.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn4" type="submit" >Compre aqui</button>
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/all-in-one-dell-inspiron-24-aio-i1301-a10-intel-core-i5-8-gb-ram-512gb-ssd-ips-238-full-hd-windows-11/magazineluiza/238592200/56b2bf1a9a6ab08ab5ddce87f3836d12.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn5" type="submit" >Compre aqui</button>
+                </div>
+                </div></div>
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/b9351a5d8902e673e7ba45d4d13acc8d.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn6" type="submit" >Compre aqui</button>
+                        </div>
+                </div>
+                </div>
+       
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/notebook-gamer-acer-nitro-v15-intel-core-i5-512gb-ssd-8gb-ram-156-full-hd-144hz-ips-nvidia-geforce-rtx-3050-6gb-windows-11-anv15-51-58az/magazineluiza/238547600/e5903dc26ac303241ee914404b690a6f.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn7" type="submit" >Compre aqui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/notebook-hp-probook-440-intel-core-i5-8gb-ram-ssd-256gb-14-full-hd-windows-11-a95k6lt-ak4/magazineluiza/238492400/49b12b5c785b4d9c3697906174a7b928.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn8" type="submit" >Compre aqui</button>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3 h-100" >
+                        <img src="https://a-static.mlcdn.com.br/280x210/notebook-positivo-vision-celeron-n4020-8gb-128gb-w11-15-6-c8128a-15/123comprou/m-12172/d45809d57d0726e0e8f96a63e084c26e.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text mb-4 text-truncate">Computador PC Gamer Completo TOB Intel Core i5 SSD 480GB 16GB Teclado Mouse Mouse Pad e Headset Gamer Monitor 23" Windows 10 Pro Trial - TOB COMPUTERS</p>
+                            <h6 class="card-subtitle text-muted mb-2"><del>R$ 2.219,58</del></h6>
+                            <h5 class="card-subtitle mb-2">R$ 1.752,99</h5>
+                            <button class="btn btn-outline-primary" id="btn9" type="submit" >Compre aqui</button>
+                    
+                        </div>
+                    </div>
+                </div>
+  
+        </main>
+    <footer class="col-12 p-5 mt-5 text-center text-white" style="background-color: #1711cf;">Todos direitos reservados.</footer>
+    <script src="pc.js"></script>
+</body>
+</html>
